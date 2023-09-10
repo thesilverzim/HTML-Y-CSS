@@ -1,0 +1,12 @@
+html {
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: inherit;
+    /* Inherit es para poner mismas modificaciones que el padre y no para hasta encontrarlo 
+       Initial es para poner las predeterminadas por el navegador
+       Upset es para poner las mismas modificaciones que el padre directo pero si este no tiene nada pone las predeterminadas
+    */
+}

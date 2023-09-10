@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html {
+    font-size: 62.5%;
+}
+
+/* Ideal siempre comenzar un documento css con esto */
+
+.medida {
+    background-color: rgb(70, 77, 76);
+    color: white;
+}
+
+.medida-absoluta__pixeles {
+    font-size: 25px;
+}
+
+.medida-relativa__porcentaje {
+    font-size: 130%;
+}
+
+.ejemplo {
+    font-size: 2rem;
+}
+
+.medida-relativa__em1 {
+    font-size: 1em;
+}
+
+.medida-relativa__em2 {
+    font-size: 1.5em;
+}
+
+.medida-relativa__em3 {
+    font-size: 2em;
+}
+
+.main {
+    height: 500px;
+    background-color: brown;
+}
+
+.section {
+    width: 80%;
+    min-width: 200px;
+    max-width: 600px;
+    height: 50%;
+    margin: 0 auto;
+    /* De arriba y abajo 0 pero de derecha y izquierda lo centra */
+    background-color: aqua;
+}

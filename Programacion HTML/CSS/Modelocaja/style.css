@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    /* Ajustar el tamaño para evitar scroll horizontal */
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid greenyellow;
+    padding: 20px 35px;
+    /* Para colocar el padding con diferentes tamaño para cada
+    lado pensar en un reloj iniciando top, right bottom y left */
+}

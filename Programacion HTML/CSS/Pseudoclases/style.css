@@ -1,0 +1,37 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    /* Eliminar el punto en las listas */
+    padding-left: 0;
+    background-color: aqua;
+}
+.main-nav__item {
+    display: inline-block;
+    /* Poner en horizontal las listas */
+}
+.main-nav__item a{
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    /* Redondear las esquinas */
+    text-decoration: none;
+    /* Eliminar linea debajo del texto */
+    
+/* Pseudo clases inicio*/
+}
+.main-nav__item a:hover{
+    color: white;
+    /* Al poner el mouse encima de la etiqueta */
+}
+.main-nav__item a:active {
+    color: green;
+    /* Al presionar la etiqueta */
+}
+/* Pseudo clases cierre */
+
+/* Pseudo elementos inicio */
+.main-nav__item a::after {
+    content: " | ";
+    /* Genera el texto despues de la etiqueta */
+}
+/* Pseudo elementos cierre */

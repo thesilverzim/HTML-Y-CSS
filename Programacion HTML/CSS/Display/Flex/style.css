@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* row para ponerlo en horizontal y column para ponerlo en vertical */
+    /* row-reverse para ponerlo en horizontal al revez */
+    /* Column-reverse para ponerlo en vertical al revez */
+    flex-wrap: wrap;
+    /* Reorganiza el contenido al volver mas pequeño el width */
+    justify-content: space-evenly;
+    /* Se usa para organizar el contenido centrado */
+    align-items: center;
+
+/* 
+Propiedades en contenedores padre:
+display:flex;
+
+flex-direccion: row | column | row-reverse | column-reverse
+
+flex-wrap: nowrap | wrap | wrap-reverse
+
+Esta siguiente propiedad es un atajo para escribir el flex-direccion y el flex-wrap en una sola línea de código
+flex-flow: Primero escribes dirección | Luego escribes flex-wrap
+
+Posicionar horizontal
+justify-content: flex-start;
+
+Flex-start: Alinear items del flex desde el comienzo.
+Flex-end: Alinear items desde el final.
+Center: Alinear items en el centro del contenedor.
+Space-between: Distribuir items uniformemente, el primer items al inicio, el último al final.
+Space-around: Distribuir items uniformemente, estos tienen el mismo espacio a su alrededor.
+Space-evenly: Distribuye uniformemente el espacio entre los items y su alrededor.
+
+Posicionar manera vertical
+aling-items: flex-star
+
+Flex-start: Se alinean desde arriba.
+Flex-end: Se alinean desde abajo.
+Center: Alinea los item al centro del eje y del contenedor.
+Stretch: Estira el alto de los elementos hijos al 100% del alto del elemento padre.
+Baseline: Escala el alto del elemento al tamaño de su contenido.
+
+aling-content: flex-star | flex-end | center | stretch | space-around | space-between “Aling-conten solo se utiliza varias filas de elementos, pero si es una sola línea usamos aling-items”
+
+Propiedades en elemento hijo
+
+order: 1; Esto se utiliza para cambiar el orden de nuestros elementos sin cambiar el orden real semantico y correcto de html. Sencillamente colocando números.
+
+aling-self: aling-items: flex-star | flex-end | center | stretch | baseline “Muy importante, si en el padre del elemento tiene declarado flex-direccion:row; esta propiedad lo acomodara verticalmente. Y si es flex.direccion: column lo ordenara horizontalmente”
+*/
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: palegreen;
+}
+
+.box4 {
+    background-color: red;
+}
+
+.box5 {
+    background-color: green;
+}
+
+.box6 {
+    background-color: purple;
+}

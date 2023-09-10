@@ -1,0 +1,70 @@
+.hermano {
+    display: flex;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.hermano-cercano {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin-right: 20px;
+    padding: 100px;
+}
+
+.hermano-general {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin-right: 20px;
+    padding: 100px;
+}
+
+.hijo {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin-right: 20px;
+    padding: 100px;
+}
+
+.descendiente {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    padding: 100px;
+}
+
+
+.hermano-cercano h2 + p {
+    color: red;
+}
+
+/* Hermano cercano y se aplica al que este inmediatamente 
+despues a todas las etiquetas p que esten inmediatamente 
+despues de un h2*/
+
+.hermano-general h2 ~ p {
+    color: red;
+}
+
+/* Hermano general y se aplica a todas las etiquetas p 
+que tengan de hermano una etiqueta h2 pero que tambien 
+esten debajo de ella  */
+
+.hijo div > p {
+    color: red;
+}
+
+/* hijo y se aplica a todas las etiquetas p que tengan 
+de padre directo a una etiqueta div */
+
+.descendiente div p {
+    color: red;
+}
+
+/* descendiente y se aplica a todas las etiquetas p que 
+esten dentro de una etiqueta div */
